@@ -1,0 +1,36 @@
+
+.Confirm__mask{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    
+  }
+  
+  .Confirm__content{
+    background:#fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    min-width: 300px;
+    padding: 16px 10px 30px;
+  }
+  
+  .Confirm__content__title{
+    color: #4d4d4d;
+    margin-bottom: 40px;
+  }
+  
+   
+  
+  .Confirm__content__body__btn+.Confirm__content__body__btn{
+    margin-left: 10px;;
+  }
